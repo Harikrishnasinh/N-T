@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication2.index" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication2.index" %>
 
 <!DOCTYPE html>
 
@@ -109,24 +109,7 @@
     </div>
     <!--Navbar Over-->
     <!--Hero section-->
-    <dh-component>
-        <!--   more free components available at www.TailwindUIKit.com -->
-        
-        <div class="bg-violet-100 flex items-center justify-center h-[90vh]">
-            <div class="container mx-auto flex flex-col items-center py-12 sm:py-24">
-                <div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
-                    <h1 class="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black md:leading-10">Welcome to "N&T"
-          <span class="text-indigo-700">destination for microblogging You Want,</span>
-                        the ultimate and real-time updates!
-                    </h1>
-                    <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">Our platform empowers you to share your thoughts, express your creativity, and connect with a global community like never before.</p>
-                </div>
-                <div class="flex justify-center items-center">
-                    <button class="w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-lg">Get Started</button>
-                </div>
-            </div>
-        </div>
-    </dh-component>
+    
     <!--Hero Section over-->
 </body>
 
