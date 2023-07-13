@@ -30,7 +30,7 @@
                         <div
                             class="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
                             <img
-                                src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                                src="https://img.freepik.com/premium-vector/web-ui-ux-design-web-development-concept-web-design-application-design-coding-web-building-white-background-3d-vector-illustration_145666-1590.jpg"
                                 class="w-full"
                                 alt="Sample image" />
                         </div>
