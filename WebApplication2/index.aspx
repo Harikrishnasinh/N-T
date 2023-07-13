@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication2.index" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication2.index" runat="server" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
-
+    <style>
+        
+    </style>
 </head>
 <!-- Navbar Start -->
 <body class="bg-indigo-100">
@@ -59,8 +61,8 @@
             </li>
             <li><a class="text-sm text-gray-400 hover:text-gray-500 font-bold" href="#">Contact</a></li>
         </ul>
-        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-indigo-50 hover:bg-indigo-100 text-sm text-gray-900 font-bold  rounded-md transition duration-200" href="#">Sign In</a>
-        <a class="hidden lg:inline-block py-2 px-6 bg-indigo-500 hover:bg-indigo-600 text-sm text-white font-bold rounded-md transition duration-200" href="#">Sign up</a>
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-indigo-50 hover:bg-indigo-100 text-sm text-gray-900 font-bold  rounded-md transition duration-200" href="login.aspx">Sign In</a>
+        <a class="hidden lg:inline-block py-2 px-6 bg-indigo-500 hover:bg-indigo-600 text-sm text-white font-bold rounded-md transition duration-200" href="register.aspx">Sign up</a>
     </nav>
     <div class="navbar-menu relative z-50 hidden">
         <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -109,7 +111,58 @@
     </div>
     <!--Navbar Over-->
     <!--Hero section-->
-    
+    <div class="flex flex-col gap-4">
+    <div class="items-center justify-center mt-4 m-4 transition-all">
+        <div class="flex items-center w-full pl-4 p-2 gap-4">
+            <div>
+                <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+            </div>
+            <div>
+                <strong>Andrew Alfred</strong><br />
+                <span>Technical advisor</span>
+            </div>
+        </div>
+        <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
+        <div class="paragraph pl-5">
+            <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
+            <p class="font-medium mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </div>
+    </div>
+
+     <div class="items-center justify-center mt-4 m-4">
+        <div class="flex items-center w-full pl-4 p-2 gap-4">
+            <div>
+                <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+            </div>
+            <div>
+                <strong>Andrew Alfred</strong><br />
+                <span>Technical advisor</span>
+            </div>
+        </div>
+        <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
+        <div class="paragraph pl-5">
+            <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
+            <p class="font-medium mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </div>
+    </div>
+
+     <div class="items-center justify-center mt-4 m-4">
+        <div class="flex items-center w-full pl-4 p-2 gap-4">
+            <div>
+                <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+            </div>
+            <div>
+                <strong>Andrew Alfred</strong><br />
+                <span>Technical advisor</span>
+            </div>
+        </div>
+        <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
+        <div class="paragraph pl-5">
+            <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
+            <p class="font-medium mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </div>
+    </div>
+    </div>
     <!--Hero Section over-->
 </body>
 
