@@ -10,25 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <!-- Navbar Start -->
-     <div class="flex items-center justify-between bottom-0 mb-10 w-full fixed">
-         <div class="w-full flex flex-col items-center">
-             <form class="w-7/12">
-                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                 <div class="relative">
-                     <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                        <p class="text-3xl font-thin">+</p>
-                     </div>
-                     <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-100 shadow-2xl focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required>
-                     <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">+</button>
-                 </div>
-             </form>
-        </div>
+<div class="flex items-center justify-between bottom-0 mb-10 w-full fixed">
+    <div class="w-full flex flex-col items-center">
+        <form class="w-7/12">
+            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <p class="text-3xl font-thin">+</p>
+                </div>
+                <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-100 shadow-2xl focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required>
+                <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">+</button>
+            </div>
+        </form>
     </div>
+</div>
 <body class="bg-gray-50">
     <nav class="relative px-4 py-4 flex justify-between items-center bg-white shadow-lg">
         <!--<a class="text-3xl font-bold leading-none" href="#">
@@ -125,9 +124,36 @@
     </div>
     <!--Navbar Over-->
     <!--Hero section-->
-    <div class="flex w-full">
-        <div class="flex flex-col gap-4 w-9/12">
-            <div class="items-center justify-center mt-4 m-4 transition-all">
+    <div class="flex flex-col md:flex md:flex-row w-full">
+        <div class="flex flex-col gap-4 w-full md:w-9/12">
+            <div class="items-center justify-center p-2 mt-4 m-4 transition-all">
+                <div class="flex items-center w-full pl-4 p-2 gap-4">
+                    <div>
+                        <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+                    </div>
+                    <div>
+                        <strong>Andrew Alfred</strong><br />
+                        <span>Technical advisor</span>
+                    </div>
+                </div>
+                <div class="paragraph pl-5 mb-2 border-t-2 border-indigo-800">
+                    <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
+                    <p class="font-medium mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+
+                <div class="font-bold flex pl-4">
+                    <div>
+                        <span>Reply</span>
+                        <span class="material-symbols-outlined">reply</span>
+                    </div>
+                    <div class="float-right ">
+                        <span class="material-symbols-outlined">favorite</span>
+                        <span class="material-symbols-outlined">send</span>
+                        <span class="material-symbols-outlined">quickreply</span>
+                    </div>
+            </div>
+
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -161,7 +187,7 @@
                 </div>
             </div>
 
-             <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -178,7 +204,7 @@
                 </div>
             </div>
 
-             <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -195,7 +221,7 @@
                 </div>
             </div>
 
-             <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -212,7 +238,7 @@
                 </div>
             </div>
 
-             <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -229,7 +255,7 @@
                 </div>
             </div>
 
-              <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -246,24 +272,7 @@
                 </div>
             </div>
 
-              <div class="items-center justify-center mt-4 m-4">
-                <div class="flex items-center w-full pl-4 p-2 gap-4">
-                    <div>
-                        <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
-                    </div>
-                    <div>
-                        <strong>Andrew Alfred</strong><br />
-                        <span>Technical advisor</span>
-                    </div>
-                </div>
-                <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
-                <div class="paragraph pl-5">
-                    <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
-                    <p class="font-medium mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                </div>
-            </div>
-
-              <div class="items-center justify-center mt-4 m-4">
+            <div class="items-center justify-center mt-4 m-4">
                 <div class="flex items-center w-full pl-4 p-2 gap-4">
                     <div>
                         <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -297,11 +306,21 @@
                 </div>
             </div>
         </div>
-        <div class="w-3/12 bg-gray-50">
+        <div class="w-full md:w-3/12 bg-gray-50">
             <div class="text-center pt-4 font-medium">
                 <h3 class="text-xl">New Users
                 </h3>
                 <div class="flex flex-col justify-center items-center w-full pl-4 p-2 gap-4">
+                    <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                        <div>
+                            <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+                        </div>
+                        <div class="text-left">
+                            <strong class="">Andrew Alfred</strong><br />
+                            <span class="">Technical advisor</span>
+                        </div>
+                    </div>
+
                     <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
@@ -312,7 +331,7 @@
                         </div>
                     </div>
 
-                     <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -322,7 +341,7 @@
                         </div>
                     </div>
 
-                     <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -332,7 +351,7 @@
                         </div>
                     </div>
 
-                      <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -342,7 +361,7 @@
                         </div>
                     </div>
 
-                      <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -352,7 +371,7 @@
                         </div>
                     </div>
 
-                      <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -362,17 +381,7 @@
                         </div>
                     </div>
 
-                      <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
-                        <div>
-                            <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
-                        </div>
-                        <div class="text-left">
-                            <strong class="">Andrew Alfred</strong><br />
-                            <span class="">Technical advisor</span>
-                        </div>
-                    </div>
-
-                     <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -387,7 +396,7 @@
         </div>
     </div>
     <!--Hero Section over-->
-   
+
 </body>
 
 <script>
