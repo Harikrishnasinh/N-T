@@ -22,12 +22,14 @@
         body{
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
+            margin:0;
+            padding:0;
         }
     </style>
 
 </head>
 <!-- Navbar Start -->
-<body class="bg-gray-50">
+<body class="bg-[#11131e] m-0 p-0">
     <nav class="relative px-4 py-4 flex justify-between items-center bg-white shadow-md">
         <!--<a class="text-3xl font-bold leading-none" href="#">
 			<svg class="h-10" alt="logo" viewBox="0 0 10240 10240">
@@ -118,20 +120,51 @@
     </div>
     <!--Navbar Over-->
     <!--Hero section-->
-    <div class="flex flex-col md:flex-row w-full">
+    <div class="flex flex-col md:flex-row w-ful bg-[#11131e]">
+            <!--Profile section-->
+        <div class="w-4/12 h-screen bg-[#11131e] p-2">
+            <div>
+                <div class="flex items-center justify-center mb-4">
+                    <img class="shadow-lg h-28 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIKqOeKJNyrx2gflx0ypGcZAWmdd9uZiuDA&usqp=CAU" />
+                </div>
+                <div class="bg-[#ffffff4d] p-4 shadow-lg rounded-md hover:bg-[#ffffff66] transition-all">
+                      <div>
+                            <strong>Andrew Alfred</strong><br />
+                            <span>Technical advisor</span>
+                      </div>
+                </div>
+            </div>
+        </div>
         <div class="flex flex-col gap-4 w-full md:w-9/12">
             <div class="items-center justify-center p-2 m-2 transition-all">
-               <div class="items-center justify-center mt-4 m-4 hover:bg-slate-50 transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
+               <div class="items-center justify-center mt-4 m-4 hover:text-[#ffffff66] text-[#ffffffcc] transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
                     <div class="flex items-center w-full pl-4 p-2 gap-4">
                         <div>
-                            <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+                            <img class="shadow-lg h-12 rounded-full border" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png" />
                         </div>
                         <div>
                             <strong>Andrew Alfred</strong><br />
                             <span>Technical advisor</span>
                         </div>
                     </div>
-                    <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
+                    <div class="paragraph pl-5">
+                        <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
+                        <p class="font-extrathin text-xl mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+
+                    
+
+                </div>
+ <div class="items-center justify-center mt-4 m-4 hover:text-[#ffffff66] text-[#ffffffcc] transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
+                    <div class="flex items-center w-full pl-4 p-2 gap-4">
+                        <div>
+                            <img class="shadow-lg h-12 rounded-full border" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png" />
+                        </div>
+                        <div>
+                            <strong>Andrew Alfred</strong><br />
+                            <span>Technical advisor</span>
+                        </div>
+                    </div>
                     <div class="paragraph pl-5">
                         <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
                         <p class="font-extrathin text-xl mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -141,37 +174,16 @@
 
                 </div>
 
-               <div class="items-center justify-center mt-4 m-4 hover:bg-slate-50 transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
+              <div class="items-center justify-center mt-4 m-4 hover:text-[#ffffff66] text-[#ffffffcc] transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
                     <div class="flex items-center w-full pl-4 p-2 gap-4">
                         <div>
-                            <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
+                            <img class="shadow-lg h-12 rounded-full border" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png" />
                         </div>
                         <div>
                             <strong>Andrew Alfred</strong><br />
                             <span>Technical advisor</span>
                         </div>
                     </div>
-                    <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
-                    <div class="paragraph pl-5">
-                        <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
-                        <p class="font-extrathin text-xl mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                    </div>
-
-                     
-
-                </div>
-
-               <div class="items-center justify-center mt-4 m-4 hover:bg-slate-50 transition-all p-2 rounded-md hover:shadow-md hover:cursor-pointer">
-                    <div class="flex items-center w-full pl-4 p-2 gap-4">
-                        <div>
-                            <img class="shadow-lg h-12 rounded-full" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
-                        </div>
-                        <div>
-                            <strong class="text-lg">Andrew Alfred</strong><br />
-                            <span class="font-semibold">Technical advisor</span>
-                        </div>
-                    </div>
-                    <hr class="w-full h-1 bg-indigo-700 border-0 rounded dark:bg-gray-700">
                     <div class="paragraph pl-5">
                         <!--<p class="text-xl text-indigo-600 font-semibold mt-1">N&T by <span>Andrew Alfred</span></p>-->
                         <p class="font-extrathin text-xl mt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -182,12 +194,12 @@
                 </div>
             </div>
         </div>
-        <div class="w-full md:w-3/12 bg-gray-50">
+        <div class="w-full md:w-3/12 bg-[11131e]">
             <div class="text-center pt-4 font-medium">
                 <h3 class="text-xl">New Users
                 </h3>
                 <div class="flex flex-col justify-center items-center w-full pl-4 p-2 gap-4">
-                    <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                    <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -197,7 +209,7 @@
                         </div>
                     </div>
 
-                     <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                      <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -209,7 +221,7 @@
 
                   
 
-                    <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                 <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -219,7 +231,7 @@
                         </div>
                     </div>
 
-                    <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                  <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -229,7 +241,7 @@
                         </div>
                     </div>
 
-                     <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                   <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
@@ -239,7 +251,7 @@
                         </div>
                     </div>
 
-                     <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:bg-slate-200 hover:text-indigo-600  p-4 w-full transition-all rounded-xl hover:cursor-pointer">
+                     <div class="flex md:flex-col md:items-center lg:flex-row gap-4 hover:text-[#ffffff66] hover:shadow-xl text-[#ffffffcc] p-4 w-full transition-all rounded-xl hover:cursor-pointer">
                         <div>
                             <img class="shadow-lg h-12 rounded-full bg-gray-50" src="https://cdn3d.iconscout.com/3d/premium/thumb/puzzle-piece-4116844-3414996.png">
                         </div>
